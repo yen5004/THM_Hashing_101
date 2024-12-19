@@ -67,3 +67,8 @@ Websites like Crackstation internally use HUGE rainbow tables to provide fast pa
 To protect against rainbow tables, we add a salt to the passwords. The salt is randomly generated and stored in the database, unique to each user. In theory, you could use the same salt for all users but that means that duplicate passwords would still have the same hash, and a rainbow table could still be created specific passwords with that salt.
 
 The salt is added to either the start or the end of the password before it’s hashed, and this means that every user will have a different password hash even if they have the same password. Hash functions like bcrypt and sha512crypt handle this automatically. Salts don’t need to be kept private.
+
+### Online assistance
+Online assistance for identifying and cracking hashes
+* https://hashes.com/en/decrypt/hash
+* https://hashes.com
