@@ -45,7 +45,7 @@ john --wordlist=/path/to/rockyou.txt --format=raw-md5 <your_hash_file>
 
 for THM:
 ```bash
-john --wordlist=/urs/share/wordlists/rockyou.txt --format=raw-md5 hashfile #include your file name
+john --wordlist=/usr/share/wordlists/rockyou.txt --format=raw-md5 hashfile #include your file name
 ```
 
 * --wordlist=/path/to/rockyou.txt specifies the wordlist to use.
